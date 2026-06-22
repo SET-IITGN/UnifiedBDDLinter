@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# fixer output and local run artifacts
+fixed_features/
+fixed/
+*.log
+
+.DS_Store

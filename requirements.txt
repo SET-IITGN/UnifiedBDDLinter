@@ -1,0 +1,6 @@
+# The linter and the auto-fixer require only Python 3 (standard library).
+# The packages below are optional and used only by the evaluation harness:
+#   tqdm        - progress bar while linting a large corpus
+#   matplotlib  - rendering the result plots
+tqdm
+matplotlib
