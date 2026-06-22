@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software or the accompanying dataset, please cite them as below."
+title: "UnifiedBDDLinter"
+abstract: >-
+  A linter and form-preserving auto-fixer for Gherkin .feature files. It checks
+  style, structure, workflow, and business-readability rules under one engine,
+  repairs the mechanical issues it finds, and leaves anything that would change a
+  test's meaning to a human.
+type: software
+authors:
+  - family-names: Koka
+    given-names: Vaishnav
+    email: vaishnav.koka054@gmail.com
+license: MIT
+repository-code: "https://github.com/vaishnavkoka/unified-bdd-linter"
+date-released: "2026-06-23"
+keywords:
+  - behavior-driven development
+  - gherkin
+  - linting
+  - static analysis
+  - automated repair
+  - software testing
