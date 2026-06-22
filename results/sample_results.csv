@@ -1,0 +1,1689 @@
+Repository_Name,File_Path,Gherkin_Lint_Errors_Before,Gherkin_Lint_Errors_Before_nums,Cuke_Lint_Errors_Before,Cuke_Lint_Errors_Before_nums,BDD_Lint_Errors_Before,BDD_Lint_Errors_Before_nums,Gherkin_Lint_Errors_After,Gherkin_Lint_Errors_After_nums,Cuke_Lint_Errors_After,Cuke_Lint_Errors_After_nums,BDD_Lint_Errors_After,BDD_Lint_Errors_After_nums,Gherkin_Issues_Fixed,Cuke_Issues_Fixed
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_parameter_specification.feature,"0     File names should be written in kebab-case e.g. ""basic-operations-parameter-specification.feature""    file-name
+7     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                      indentation
+8     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                          indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                              indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                              indentation
+11    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                              indentation
+12    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                              indentation
+13    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                              indentation
+14    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                              indentation
+16    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                      indentation
+17    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                          indentation
+18    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                              indentation
+19    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                              indentation
+20    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                              indentation
+21    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                              indentation
+22    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                              indentation",16,"FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_parameter_specification.feature:2
+TestShouldUseBackgroundLinter
+  Test shares steps with all other tests in feature. Use a background.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_parameter_specification.feature:8
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_parameter_specification.feature:17",3,"S004 L8: Line 8: Scenario should not be indented
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L11: Line 11: Expected indent 2, got 4
+S004 L12: Line 12: Expected indent 2, got 4
+S004 L13: Line 13: Expected indent 2, got 4
+S004 L14: Line 14: Expected indent 2, got 4
+S004 L17: Line 17: Scenario should not be indented
+S004 L18: Line 18: Expected indent 2, got 4
+S004 L19: Line 19: Expected indent 2, got 4
+S004 L20: Line 20: Expected indent 2, got 4
+S004 L21: Line 21: Expected indent 2, got 4
+S004 L22: Line 22: Expected indent 2, got 4",13,,0,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_q2bp9xxb/basic-operations-parameter-specification.feature
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_q2bp9xxb/basic-operations-parameter-specification.feature:2
+TestShouldUseBackgroundLinter
+  Test shares steps with all other tests in feature. Use a background.
+    /tmp/bdd_fix_q2bp9xxb/basic-operations-parameter-specification.feature:8
+    /tmp/bdd_fix_q2bp9xxb/basic-operations-parameter-specification.feature:17",4,,0,16,-1
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_resource_management.feature,"0     File names should be written in kebab-case e.g. ""basic-operations-resource-management.feature""    file-name
+4     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                  indentation
+5     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                      indentation
+6     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+7     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+8     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+12    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                  indentation
+13    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                      indentation
+14    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+15    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+16    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+17    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+18    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+19    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+21    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                  indentation
+22    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                      indentation
+23    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+24    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+25    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+26    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+27    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+29    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                  indentation
+30    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                      indentation
+31    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+32    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+33    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+34    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+35    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+37    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                  indentation
+38    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                      indentation
+39    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+40    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+41    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+42    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+43    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation",37,"ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-085'. Move tag to Feature level.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_resource_management.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_resource_management.feature:2",2,"S004 L5: Line 5: Scenario should not be indented
+S004 L6: Line 6: Expected indent 2, got 4
+S004 L7: Line 7: Expected indent 2, got 4
+S004 L8: Line 8: Expected indent 2, got 4
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L13: Line 13: Scenario should not be indented
+S004 L14: Line 14: Expected indent 2, got 4
+S004 L15: Line 15: Expected indent 2, got 4
+S004 L16: Line 16: Expected indent 2, got 4
+S004 L17: Line 17: Expected indent 2, got 4
+S004 L18: Line 18: Expected indent 2, got 4
+S004 L19: Line 19: Expected indent 2, got 4
+S004 L22: Line 22: Scenario should not be indented
+S004 L23: Line 23: Expected indent 2, got 4
+S004 L24: Line 24: Expected indent 2, got 4
+S004 L25: Line 25: Expected indent 2, got 4
+S004 L26: Line 26: Expected indent 2, got 4
+S004 L27: Line 27: Expected indent 2, got 4
+S004 L30: Line 30: Scenario should not be indented
+S004 L31: Line 31: Expected indent 2, got 4
+S004 L32: Line 32: Expected indent 2, got 4
+S004 L33: Line 33: Expected indent 2, got 4
+S004 L34: Line 34: Expected indent 2, got 4
+S004 L35: Line 35: Expected indent 2, got 4
+S004 L38: Line 38: Scenario should not be indented
+S004 L39: Line 39: Expected indent 2, got 4
+S004 L40: Line 40: Expected indent 2, got 4
+S004 L41: Line 41: Expected indent 2, got 4
+S004 L42: Line 42: Expected indent 2, got 4
+S004 L43: Line 43: Expected indent 2, got 4",31,,0,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_5987_94q/basic-operations-resource-management.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-085'. Move tag to Feature level.
+    /tmp/bdd_fix_5987_94q/basic-operations-resource-management.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_5987_94q/basic-operations-resource-management.feature:2",3,,0,37,-1
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/api_package_structure_subpackages.feature,"0     File names should be written in kebab-case e.g. ""api-package-structure-subpackages.feature""    file-name
+4     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2               indentation
+5     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                   indentation
+6     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                       indentation
+7     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                       indentation
+8     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                       indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                       indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                       indentation
+11    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                       indentation
+12    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                       indentation
+14    Multiple empty lines are not allowed                                                           no-multiple-empty-lines",11,"FeatureFileWithMismatchedNameLinter
+  Feature file name does not match feature name.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/api_package_structure_subpackages.feature
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/api_package_structure_subpackages.feature:2",2,"S004 L5: Line 5: Scenario should not be indented
+S004 L6: Line 6: Expected indent 2, got 4
+S004 L7: Line 7: Expected indent 2, got 4
+S004 L8: Line 8: Expected indent 2, got 4
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L11: Line 11: Expected indent 2, got 4
+S004 L12: Line 12: Expected indent 2, got 4",8,14    Multiple empty lines are not allowed    no-multiple-empty-lines,1,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_bl7ilr62/api-package-structure.feature
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_bl7ilr62/api-package-structure.feature:2",2,,0,10,0
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/always_use_defer_for_cleanup.feature,"0     File names should be written in kebab-case e.g. ""always-use-defer-for-cleanup.feature""                  file-name
+4     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                        indentation
+5     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                            indentation
+6     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                indentation
+7     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                indentation
+8     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                indentation
+8     Scenario ""Defer statements ensure cleanup even when errors occur"" contains 2 When statements (max 1)    only-one-when
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                indentation
+11    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                indentation
+13    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                        indentation
+14    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                            indentation
+15    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                indentation
+16    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                indentation
+17    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                indentation
+18    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                indentation
+19    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                indentation
+21    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                        indentation
+22    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                            indentation
+23    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                indentation
+24    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                indentation
+25    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                indentation
+26    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                indentation
+27    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                indentation
+29    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                        indentation
+30    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                            indentation
+31    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                indentation
+32    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                indentation
+33    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                indentation
+34    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                indentation
+35    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                indentation",31,"ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-079'. Move tag to Feature level.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/always_use_defer_for_cleanup.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/always_use_defer_for_cleanup.feature:2
+TestWithNoActionStepLinter
+  Test does not have a 'When' step.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/always_use_defer_for_cleanup.feature:30",3,"S004 L5: Line 5: Scenario should not be indented
+S004 L6: Line 6: Expected indent 2, got 4
+S004 L7: Line 7: Expected indent 2, got 4
+S004 L8: Line 8: Expected indent 2, got 4
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L11: Line 11: Expected indent 2, got 4
+S004 L14: Line 14: Scenario should not be indented
+S004 L15: Line 15: Expected indent 2, got 4
+S004 L16: Line 16: Expected indent 2, got 4
+S004 L17: Line 17: Expected indent 2, got 4
+S004 L18: Line 18: Expected indent 2, got 4
+S004 L19: Line 19: Expected indent 2, got 4
+S004 L22: Line 22: Scenario should not be indented
+S004 L23: Line 23: Expected indent 2, got 4
+S004 L24: Line 24: Expected indent 2, got 4
+S004 L25: Line 25: Expected indent 2, got 4
+S004 L26: Line 26: Expected indent 2, got 4
+S004 L27: Line 27: Expected indent 2, got 4
+S004 L30: Line 30: Scenario should not be indented
+S004 L31: Line 31: Expected indent 2, got 4
+S004 L32: Line 32: Expected indent 2, got 4
+S004 L33: Line 33: Expected indent 2, got 4
+S004 L34: Line 34: Expected indent 2, got 4
+S004 L35: Line 35: Expected indent 2, got 4",25,"8    Scenario ""Defer statements ensure cleanup even when errors occur"" contains 2 When statements (max 1)    only-one-when",1,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_ya5eskkp/always-use-defer-for-cleanup.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-079'. Move tag to Feature level.
+    /tmp/bdd_fix_ya5eskkp/always-use-defer-for-cleanup.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_ya5eskkp/always-use-defer-for-cleanup.feature:2
+TestWithNoActionStepLinter
+  Test does not have a 'When' step.
+    /tmp/bdd_fix_ya5eskkp/always-use-defer-for-cleanup.feature:30",4,,0,30,-1
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_error_handling.feature,"0     File names should be written in kebab-case e.g. ""basic-operations-error-handling.feature""    file-name
+7     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2             indentation
+8     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                 indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+11    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+12    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+14    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2             indentation
+15    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                 indentation
+16    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+17    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+18    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+19    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation",13,"ElementWithCommonTagsLinter
+  All tests in Feature have tag '@error'. Move tag to Feature level.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_error_handling.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_error_handling.feature:2
+TestWithBadNameLinter
+  ""Test"", ""Verify"" and ""Check"" should not be used in scenario names.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_error_handling.feature:8",3,"S004 L8: Line 8: Scenario should not be indented
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L11: Line 11: Expected indent 2, got 4
+S004 L12: Line 12: Expected indent 2, got 4
+S004 L15: Line 15: Scenario should not be indented
+S004 L16: Line 16: Expected indent 2, got 4
+S004 L17: Line 17: Expected indent 2, got 4
+S004 L18: Line 18: Expected indent 2, got 4
+S004 L19: Line 19: Expected indent 2, got 4",10,,0,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_8yakg0qc/basic-operations-error-handling.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@error'. Move tag to Feature level.
+    /tmp/bdd_fix_8yakg0qc/basic-operations-error-handling.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_8yakg0qc/basic-operations-error-handling.feature:2
+TestWithBadNameLinter
+  ""Test"", ""Verify"" and ""Check"" should not be used in scenario names.
+    /tmp/bdd_fix_8yakg0qc/basic-operations-error-handling.feature:8",4,,0,13,-1
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_best_practices.feature,"0     File names should be written in kebab-case e.g. ""basic-operations-best-practices.feature""    file-name
+4     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2             indentation
+5     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                 indentation
+6     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+7     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+8     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+12    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2             indentation
+13    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                 indentation
+14    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+15    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+16    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+17    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+18    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+19    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+21    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2             indentation
+22    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                 indentation
+23    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+24    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+25    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+26    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+27    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+28    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+30    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2             indentation
+31    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                 indentation
+32    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+33    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+34    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+35    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+36    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+37    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation",32,"ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-077'. Move tag to Feature level.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_best_practices.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_best_practices.feature:2",2,"S004 L5: Line 5: Scenario should not be indented
+S004 L6: Line 6: Expected indent 2, got 4
+S004 L7: Line 7: Expected indent 2, got 4
+S004 L8: Line 8: Expected indent 2, got 4
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L13: Line 13: Scenario should not be indented
+S004 L14: Line 14: Expected indent 2, got 4
+S004 L15: Line 15: Expected indent 2, got 4
+S004 L16: Line 16: Expected indent 2, got 4
+S004 L17: Line 17: Expected indent 2, got 4
+S004 L18: Line 18: Expected indent 2, got 4
+S004 L19: Line 19: Expected indent 2, got 4
+S004 L22: Line 22: Scenario should not be indented
+S004 L23: Line 23: Expected indent 2, got 4
+S004 L24: Line 24: Expected indent 2, got 4
+S004 L25: Line 25: Expected indent 2, got 4
+S004 L26: Line 26: Expected indent 2, got 4
+S004 L27: Line 27: Expected indent 2, got 4
+S004 L28: Line 28: Expected indent 2, got 4
+S004 L31: Line 31: Scenario should not be indented
+S004 L32: Line 32: Expected indent 2, got 4
+S004 L33: Line 33: Expected indent 2, got 4
+S004 L34: Line 34: Expected indent 2, got 4
+S004 L35: Line 35: Expected indent 2, got 4
+S004 L36: Line 36: Expected indent 2, got 4
+S004 L37: Line 37: Expected indent 2, got 4",27,,0,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_edqon2pf/basic-operations-best-practices.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-077'. Move tag to Feature level.
+    /tmp/bdd_fix_edqon2pf/basic-operations-best-practices.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_edqon2pf/basic-operations-best-practices.feature:2",3,,0,32,-1
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_use_appropriate_context_timeouts_operations.feature,"0     File names should be written in kebab-case e.g. ""basic-operations-use-appropriate-context-timeouts-operations.feature""    file-name
+4     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                          indentation
+5     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                              indentation
+6     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+7     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+8     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+12    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                          indentation
+13    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                              indentation
+14    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+15    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+16    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+17    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+18    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+20    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                          indentation
+21    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                              indentation
+22    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+23    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+24    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+25    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+26    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+27    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+29    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                          indentation
+30    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                              indentation
+31    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+32    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+33    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+34    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+35    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+37    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                          indentation
+38    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                              indentation
+39    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+40    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+41    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+42    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+43    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation
+44    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                  indentation",38,"FeatureFileWithMismatchedNameLinter
+  Feature file name does not match feature name.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_use_appropriate_context_timeouts_operations.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-081'. Move tag to Feature level.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_use_appropriate_context_timeouts_operations.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_use_appropriate_context_timeouts_operations.feature:2",3,"S004 L5: Line 5: Scenario should not be indented
+S004 L6: Line 6: Expected indent 2, got 4
+S004 L7: Line 7: Expected indent 2, got 4
+S004 L8: Line 8: Expected indent 2, got 4
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L13: Line 13: Scenario should not be indented
+S004 L14: Line 14: Expected indent 2, got 4
+S004 L15: Line 15: Expected indent 2, got 4
+S004 L16: Line 16: Expected indent 2, got 4
+S004 L17: Line 17: Expected indent 2, got 4
+S004 L18: Line 18: Expected indent 2, got 4
+S004 L21: Line 21: Scenario should not be indented
+S004 L22: Line 22: Expected indent 2, got 4
+S004 L23: Line 23: Expected indent 2, got 4
+S004 L24: Line 24: Expected indent 2, got 4
+S004 L25: Line 25: Expected indent 2, got 4
+S004 L26: Line 26: Expected indent 2, got 4
+S004 L27: Line 27: Expected indent 2, got 4
+S004 L30: Line 30: Scenario should not be indented
+S004 L31: Line 31: Expected indent 2, got 4
+S004 L32: Line 32: Expected indent 2, got 4
+S004 L33: Line 33: Expected indent 2, got 4
+S004 L34: Line 34: Expected indent 2, got 4
+S004 L35: Line 35: Expected indent 2, got 4
+S004 L38: Line 38: Scenario should not be indented
+S004 L39: Line 39: Expected indent 2, got 4
+S004 L40: Line 40: Expected indent 2, got 4
+S004 L41: Line 41: Expected indent 2, got 4
+S004 L42: Line 42: Expected indent 2, got 4
+S004 L43: Line 43: Expected indent 2, got 4
+S004 L44: Line 44: Expected indent 2, got 4",32,,0,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_20yiyex7/basic-operations-use-appropriate-context-timeouts.feature
+FeatureFileWithMismatchedNameLinter
+  Feature file name does not match feature name.
+    /tmp/bdd_fix_20yiyex7/basic-operations-use-appropriate-context-timeouts.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-081'. Move tag to Feature level.
+    /tmp/bdd_fix_20yiyex7/basic-operations-use-appropriate-context-timeouts.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_20yiyex7/basic-operations-use-appropriate-context-timeouts.feature:2",4,,0,38,-1
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/close_and_release_resources.feature,"0     File names should be written in kebab-case e.g. ""close-and-release-resources.feature""    file-name
+4     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2         indentation
+5     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2             indentation
+6     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+7     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+8     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+11    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+12    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+13    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+15    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2         indentation
+16    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2             indentation
+17    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+18    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+19    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+20    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+21    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+22    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+24    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2         indentation
+25    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2             indentation
+26    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+27    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+28    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+29    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+31    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2         indentation
+32    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2             indentation
+33    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+34    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+35    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+36    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+37    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation
+38    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                 indentation",33,"ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-003'. Move tag to Feature level.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/close_and_release_resources.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/close_and_release_resources.feature:2",2,"S004 L5: Line 5: Scenario should not be indented
+S004 L6: Line 6: Expected indent 2, got 4
+S004 L7: Line 7: Expected indent 2, got 4
+S004 L8: Line 8: Expected indent 2, got 4
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L11: Line 11: Expected indent 2, got 4
+S004 L12: Line 12: Expected indent 2, got 4
+S004 L13: Line 13: Expected indent 2, got 4
+S004 L16: Line 16: Scenario should not be indented
+S004 L17: Line 17: Expected indent 2, got 4
+S004 L18: Line 18: Expected indent 2, got 4
+S004 L19: Line 19: Expected indent 2, got 4
+S004 L20: Line 20: Expected indent 2, got 4
+S004 L21: Line 21: Expected indent 2, got 4
+S004 L22: Line 22: Expected indent 2, got 4
+S004 L25: Line 25: Scenario should not be indented
+S004 L26: Line 26: Expected indent 2, got 4
+S004 L27: Line 27: Expected indent 2, got 4
+S004 L28: Line 28: Expected indent 2, got 4
+S004 L29: Line 29: Expected indent 2, got 4
+S004 L32: Line 32: Scenario should not be indented
+S004 L33: Line 33: Expected indent 2, got 4
+S004 L34: Line 34: Expected indent 2, got 4
+S004 L35: Line 35: Expected indent 2, got 4
+S004 L36: Line 36: Expected indent 2, got 4
+S004 L37: Line 37: Expected indent 2, got 4
+S004 L38: Line 38: Expected indent 2, got 4",28,,0,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_lz00bvy4/close-and-release-resources.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-003'. Move tag to Feature level.
+    /tmp/bdd_fix_lz00bvy4/close-and-release-resources.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_lz00bvy4/close-and-release-resources.feature:2",3,,0,33,-1
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_common_error_types_validation.feature,"0     File names should be written in kebab-case e.g. ""basic-operations-common-error-types-validation.feature""    file-name
+4     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                            indentation
+5     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                indentation
+6     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+7     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+8     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+12    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                            indentation
+13    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                indentation
+14    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+15    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+16    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+17    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+18    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+20    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                            indentation
+21    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                indentation
+22    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+23    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+24    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+25    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+26    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+28    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                            indentation
+29    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                indentation
+30    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+31    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+32    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+33    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+34    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+36    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                            indentation
+37    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                indentation
+38    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+39    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+40    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+41    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+42    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+44    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                            indentation
+45    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                indentation
+46    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+47    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+48    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+49    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+50    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation",43,"FeatureFileWithMismatchedNameLinter
+  Feature file name does not match feature name.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_common_error_types_validation.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-065'. Move tag to Feature level.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_common_error_types_validation.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_common_error_types_validation.feature:2",3,"S004 L5: Line 5: Scenario should not be indented
+S004 L6: Line 6: Expected indent 2, got 4
+S004 L7: Line 7: Expected indent 2, got 4
+S004 L8: Line 8: Expected indent 2, got 4
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L13: Line 13: Scenario should not be indented
+S004 L14: Line 14: Expected indent 2, got 4
+S004 L15: Line 15: Expected indent 2, got 4
+S004 L16: Line 16: Expected indent 2, got 4
+S004 L17: Line 17: Expected indent 2, got 4
+S004 L18: Line 18: Expected indent 2, got 4
+S004 L21: Line 21: Scenario should not be indented
+S004 L22: Line 22: Expected indent 2, got 4
+S004 L23: Line 23: Expected indent 2, got 4
+S004 L24: Line 24: Expected indent 2, got 4
+S004 L25: Line 25: Expected indent 2, got 4
+S004 L26: Line 26: Expected indent 2, got 4
+S004 L29: Line 29: Scenario should not be indented
+S004 L30: Line 30: Expected indent 2, got 4
+S004 L31: Line 31: Expected indent 2, got 4
+S004 L32: Line 32: Expected indent 2, got 4
+S004 L33: Line 33: Expected indent 2, got 4
+S004 L34: Line 34: Expected indent 2, got 4
+S004 L37: Line 37: Scenario should not be indented
+S004 L38: Line 38: Expected indent 2, got 4
+S004 L39: Line 39: Expected indent 2, got 4
+S004 L40: Line 40: Expected indent 2, got 4
+S004 L41: Line 41: Expected indent 2, got 4
+S004 L42: Line 42: Expected indent 2, got 4
+S004 L45: Line 45: Scenario should not be indented
+S004 L46: Line 46: Expected indent 2, got 4
+S004 L47: Line 47: Expected indent 2, got 4
+S004 L48: Line 48: Expected indent 2, got 4
+S004 L49: Line 49: Expected indent 2, got 4
+S004 L50: Line 50: Expected indent 2, got 4",36,,0,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_je3e8xna/basic-operations-common-error-types.feature
+FeatureFileWithMismatchedNameLinter
+  Feature file name does not match feature name.
+    /tmp/bdd_fix_je3e8xna/basic-operations-common-error-types.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-065'. Move tag to Feature level.
+    /tmp/bdd_fix_je3e8xna/basic-operations-common-error-types.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_je3e8xna/basic-operations-common-error-types.feature:2",4,,0,43,-1
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/avoid_circular_dependencies_principle.feature,"0     File names should be written in kebab-case e.g. ""avoid-circular-dependencies-principle.feature""    file-name
+4     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                   indentation
+5     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                       indentation
+6     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+7     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+8     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+11    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+12    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+14    Multiple empty lines are not allowed                                                               no-multiple-empty-lines",11,"FeatureFileWithMismatchedNameLinter
+  Feature file name does not match feature name.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/avoid_circular_dependencies_principle.feature
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/avoid_circular_dependencies_principle.feature:2",2,"S004 L5: Line 5: Scenario should not be indented
+S004 L6: Line 6: Expected indent 2, got 4
+S004 L7: Line 7: Expected indent 2, got 4
+S004 L8: Line 8: Expected indent 2, got 4
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L11: Line 11: Expected indent 2, got 4
+S004 L12: Line 12: Expected indent 2, got 4",8,14    Multiple empty lines are not allowed    no-multiple-empty-lines,1,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_by8_dzka/avoiding-circular-dependencies.feature
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_by8_dzka/avoiding-circular-dependencies.feature:2",2,,0,10,0
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_always_check_for_errors_error.feature,"0     File names should be written in kebab-case e.g. ""basic-operations-always-check-for-errors-error.feature""    file-name
+4     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                            indentation
+5     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                indentation
+6     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+7     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+8     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+12    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                            indentation
+13    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                indentation
+14    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+15    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+16    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+17    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+18    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+20    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                            indentation
+21    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                indentation
+22    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+23    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+24    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+25    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+26    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+28    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                            indentation
+29    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                indentation
+30    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+31    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+32    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+33    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation
+34    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                    indentation",29,"FeatureFileWithMismatchedNameLinter
+  Feature file name does not match feature name.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_always_check_for_errors_error.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-072'. Move tag to Feature level.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_always_check_for_errors_error.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_always_check_for_errors_error.feature:2
+TestWithBadNameLinter
+  ""Test"", ""Verify"" and ""Check"" should not be used in scenario names.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_always_check_for_errors_error.feature:5
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_always_check_for_errors_error.feature:13
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_always_check_for_errors_error.feature:21",6,"S004 L5: Line 5: Scenario should not be indented
+S004 L6: Line 6: Expected indent 2, got 4
+S004 L7: Line 7: Expected indent 2, got 4
+S004 L8: Line 8: Expected indent 2, got 4
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L13: Line 13: Scenario should not be indented
+S004 L14: Line 14: Expected indent 2, got 4
+S004 L15: Line 15: Expected indent 2, got 4
+S004 L16: Line 16: Expected indent 2, got 4
+S004 L17: Line 17: Expected indent 2, got 4
+S004 L18: Line 18: Expected indent 2, got 4
+S004 L21: Line 21: Scenario should not be indented
+S004 L22: Line 22: Expected indent 2, got 4
+S004 L23: Line 23: Expected indent 2, got 4
+S004 L24: Line 24: Expected indent 2, got 4
+S004 L25: Line 25: Expected indent 2, got 4
+S004 L26: Line 26: Expected indent 2, got 4
+S004 L29: Line 29: Scenario should not be indented
+S004 L30: Line 30: Expected indent 2, got 4
+S004 L31: Line 31: Expected indent 2, got 4
+S004 L32: Line 32: Expected indent 2, got 4
+S004 L33: Line 33: Expected indent 2, got 4
+S004 L34: Line 34: Expected indent 2, got 4",24,,0,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_8pyb7_1o/basic-operations-always-check-for-errors.feature
+FeatureFileWithMismatchedNameLinter
+  Feature file name does not match feature name.
+    /tmp/bdd_fix_8pyb7_1o/basic-operations-always-check-for-errors.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-072'. Move tag to Feature level.
+    /tmp/bdd_fix_8pyb7_1o/basic-operations-always-check-for-errors.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_8pyb7_1o/basic-operations-always-check-for-errors.feature:2
+TestWithBadNameLinter
+  ""Test"", ""Verify"" and ""Check"" should not be used in scenario names.
+    /tmp/bdd_fix_8pyb7_1o/basic-operations-always-check-for-errors.feature:5
+    /tmp/bdd_fix_8pyb7_1o/basic-operations-always-check-for-errors.feature:13
+    /tmp/bdd_fix_8pyb7_1o/basic-operations-always-check-for-errors.feature:21",7,,0,29,-1
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_definitions.feature,"0     File names should be written in kebab-case e.g. ""basic-operations-definitions.feature""    file-name
+7     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2          indentation
+8     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2              indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                  indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                  indentation
+11    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                  indentation
+12    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                  indentation
+14    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2          indentation
+15    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2              indentation
+16    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                  indentation
+17    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                  indentation
+18    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                  indentation
+19    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                  indentation",13,"ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-022'. Move tag to Feature level.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_definitions.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_definitions.feature:2",2,"S004 L8: Line 8: Scenario should not be indented
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L11: Line 11: Expected indent 2, got 4
+S004 L12: Line 12: Expected indent 2, got 4
+S004 L15: Line 15: Scenario should not be indented
+S004 L16: Line 16: Expected indent 2, got 4
+S004 L17: Line 17: Expected indent 2, got 4
+S004 L18: Line 18: Expected indent 2, got 4
+S004 L19: Line 19: Expected indent 2, got 4",10,,0,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_j4lq35fy/basic-operations-definitions.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-022'. Move tag to Feature level.
+    /tmp/bdd_fix_j4lq35fy/basic-operations-definitions.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_j4lq35fy/basic-operations-definitions.feature:2",3,,0,13,-1
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_error_handling_best_practices_context_wrapping_information.feature,"0     File names should be written in kebab-case e.g. ""basic-operations-error-handling-best-practices-context-wrapping-information.feature""    file-name
+4     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                                         indentation
+5     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                                             indentation
+6     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation
+7     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation
+8     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation
+11    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation
+12    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation
+14    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                                         indentation
+15    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                                             indentation
+16    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation
+17    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation
+18    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation
+19    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation
+20    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation
+21    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation
+23    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                                         indentation
+24    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                                             indentation
+25    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation
+26    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation
+27    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation
+28    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation
+29    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation
+31    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                                         indentation
+32    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                                             indentation
+33    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation
+34    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation
+35    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation
+36    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation
+37    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                                 indentation",32,"FeatureFileWithMismatchedNameLinter
+  Feature file name does not match feature name.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_error_handling_best_practices_context_wrapping_information.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-082'. Move tag to Feature level.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_error_handling_best_practices_context_wrapping_information.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_error_handling_best_practices_context_wrapping_information.feature:2",3,"S004 L5: Line 5: Scenario should not be indented
+S004 L6: Line 6: Expected indent 2, got 4
+S004 L7: Line 7: Expected indent 2, got 4
+S004 L8: Line 8: Expected indent 2, got 4
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L11: Line 11: Expected indent 2, got 4
+S004 L12: Line 12: Expected indent 2, got 4
+S004 L15: Line 15: Scenario should not be indented
+S004 L16: Line 16: Expected indent 2, got 4
+S004 L17: Line 17: Expected indent 2, got 4
+S004 L18: Line 18: Expected indent 2, got 4
+S004 L19: Line 19: Expected indent 2, got 4
+S004 L20: Line 20: Expected indent 2, got 4
+S004 L21: Line 21: Expected indent 2, got 4
+S004 L24: Line 24: Scenario should not be indented
+S004 L25: Line 25: Expected indent 2, got 4
+S004 L26: Line 26: Expected indent 2, got 4
+S004 L27: Line 27: Expected indent 2, got 4
+S004 L28: Line 28: Expected indent 2, got 4
+S004 L29: Line 29: Expected indent 2, got 4
+S004 L32: Line 32: Scenario should not be indented
+S004 L33: Line 33: Expected indent 2, got 4
+S004 L34: Line 34: Expected indent 2, got 4
+S004 L35: Line 35: Expected indent 2, got 4
+S004 L36: Line 36: Expected indent 2, got 4
+S004 L37: Line 37: Expected indent 2, got 4",27,,0,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_b16p35a2/basic-operations-error-handling-best-practices-context-wrapping.feature
+FeatureFileWithMismatchedNameLinter
+  Feature file name does not match feature name.
+    /tmp/bdd_fix_b16p35a2/basic-operations-error-handling-best-practices-context-wrapping.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-082'. Move tag to Feature level.
+    /tmp/bdd_fix_b16p35a2/basic-operations-error-handling-best-practices-context-wrapping.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_b16p35a2/basic-operations-error-handling-best-practices-context-wrapping.feature:2",4,,0,32,-1
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_structured_error_examples_error_creation.feature,"0     File names should be written in kebab-case e.g. ""basic-operations-structured-error-examples-error-creation.feature""    file-name
+4     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                       indentation
+5     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                           indentation
+6     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation
+7     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation
+8     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation
+11    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation
+13    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                       indentation
+14    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                           indentation
+15    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation
+16    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation
+17    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation
+18    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation
+19    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation
+20    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation
+22    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                       indentation
+23    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                           indentation
+24    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation
+25    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation
+26    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation
+27    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation
+28    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation
+29    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation
+31    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                       indentation
+32    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                           indentation
+33    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation
+34    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation
+35    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation
+36    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation
+37    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                               indentation",32,"FeatureFileWithMismatchedNameLinter
+  Feature file name does not match feature name.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_structured_error_examples_error_creation.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-067'. Move tag to Feature level.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_structured_error_examples_error_creation.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_structured_error_examples_error_creation.feature:2
+TestWithBadNameLinter
+  ""Test"", ""Verify"" and ""Check"" should not be used in scenario names.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_structured_error_examples_error_creation.feature:14",4,"S004 L5: Line 5: Scenario should not be indented
+S004 L6: Line 6: Expected indent 2, got 4
+S004 L7: Line 7: Expected indent 2, got 4
+S004 L8: Line 8: Expected indent 2, got 4
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L11: Line 11: Expected indent 2, got 4
+S004 L14: Line 14: Scenario should not be indented
+S004 L15: Line 15: Expected indent 2, got 4
+S004 L16: Line 16: Expected indent 2, got 4
+S004 L17: Line 17: Expected indent 2, got 4
+S004 L18: Line 18: Expected indent 2, got 4
+S004 L19: Line 19: Expected indent 2, got 4
+S004 L20: Line 20: Expected indent 2, got 4
+S004 L23: Line 23: Scenario should not be indented
+S004 L24: Line 24: Expected indent 2, got 4
+S004 L25: Line 25: Expected indent 2, got 4
+S004 L26: Line 26: Expected indent 2, got 4
+S004 L27: Line 27: Expected indent 2, got 4
+S004 L28: Line 28: Expected indent 2, got 4
+S004 L29: Line 29: Expected indent 2, got 4
+S004 L32: Line 32: Scenario should not be indented
+S004 L33: Line 33: Expected indent 2, got 4
+S004 L34: Line 34: Expected indent 2, got 4
+S004 L35: Line 35: Expected indent 2, got 4
+S004 L36: Line 36: Expected indent 2, got 4
+S004 L37: Line 37: Expected indent 2, got 4",27,,0,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_1iedkljk/basic-operations-structured-error-examples.feature
+FeatureFileWithMismatchedNameLinter
+  Feature file name does not match feature name.
+    /tmp/bdd_fix_1iedkljk/basic-operations-structured-error-examples.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-067'. Move tag to Feature level.
+    /tmp/bdd_fix_1iedkljk/basic-operations-structured-error-examples.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_1iedkljk/basic-operations-structured-error-examples.feature:2
+TestWithBadNameLinter
+  ""Test"", ""Verify"" and ""Check"" should not be used in scenario names.
+    /tmp/bdd_fix_1iedkljk/basic-operations-structured-error-examples.feature:14",5,,0,32,-1
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/clean_up_resources.feature,"0     File names should be written in kebab-case e.g. ""clean-up-resources.feature""        file-name
+4     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2    indentation
+5     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2        indentation
+6     Wrong indentation for ""Step"", expected indentation level of 2, but got 4            indentation
+7     Wrong indentation for ""Step"", expected indentation level of 2, but got 4            indentation
+8     Wrong indentation for ""Step"", expected indentation level of 2, but got 4            indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4            indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4            indentation
+12    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2    indentation
+13    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2        indentation
+14    Wrong indentation for ""Step"", expected indentation level of 2, but got 4            indentation
+15    Wrong indentation for ""Step"", expected indentation level of 2, but got 4            indentation
+16    Wrong indentation for ""Step"", expected indentation level of 2, but got 4            indentation
+17    Wrong indentation for ""Step"", expected indentation level of 2, but got 4            indentation
+18    Wrong indentation for ""Step"", expected indentation level of 2, but got 4            indentation
+20    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2    indentation
+21    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2        indentation
+22    Wrong indentation for ""Step"", expected indentation level of 2, but got 4            indentation
+23    Wrong indentation for ""Step"", expected indentation level of 2, but got 4            indentation
+24    Wrong indentation for ""Step"", expected indentation level of 2, but got 4            indentation
+25    Wrong indentation for ""Step"", expected indentation level of 2, but got 4            indentation
+26    Wrong indentation for ""Step"", expected indentation level of 2, but got 4            indentation
+28    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2    indentation
+29    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2        indentation
+30    Wrong indentation for ""Step"", expected indentation level of 2, but got 4            indentation
+31    Wrong indentation for ""Step"", expected indentation level of 2, but got 4            indentation
+32    Wrong indentation for ""Step"", expected indentation level of 2, but got 4            indentation
+33    Wrong indentation for ""Step"", expected indentation level of 2, but got 4            indentation
+34    Wrong indentation for ""Step"", expected indentation level of 2, but got 4            indentation",29,"ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-076'. Move tag to Feature level.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/clean_up_resources.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/clean_up_resources.feature:2",2,"S004 L5: Line 5: Scenario should not be indented
+S004 L6: Line 6: Expected indent 2, got 4
+S004 L7: Line 7: Expected indent 2, got 4
+S004 L8: Line 8: Expected indent 2, got 4
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L13: Line 13: Scenario should not be indented
+S004 L14: Line 14: Expected indent 2, got 4
+S004 L15: Line 15: Expected indent 2, got 4
+S004 L16: Line 16: Expected indent 2, got 4
+S004 L17: Line 17: Expected indent 2, got 4
+S004 L18: Line 18: Expected indent 2, got 4
+S004 L21: Line 21: Scenario should not be indented
+S004 L22: Line 22: Expected indent 2, got 4
+S004 L23: Line 23: Expected indent 2, got 4
+S004 L24: Line 24: Expected indent 2, got 4
+S004 L25: Line 25: Expected indent 2, got 4
+S004 L26: Line 26: Expected indent 2, got 4
+S004 L29: Line 29: Scenario should not be indented
+S004 L30: Line 30: Expected indent 2, got 4
+S004 L31: Line 31: Expected indent 2, got 4
+S004 L32: Line 32: Expected indent 2, got 4
+S004 L33: Line 33: Expected indent 2, got 4
+S004 L34: Line 34: Expected indent 2, got 4",24,,0,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_sr7reisf/clean-up-resources.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-076'. Move tag to Feature level.
+    /tmp/bdd_fix_sr7reisf/clean-up-resources.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_sr7reisf/clean-up-resources.feature:2",3,,0,29,-1
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_structured_error_system_error_error.feature,"0     File names should be written in kebab-case e.g. ""basic-operations-structured-error-system-error-error.feature""    file-name
+4     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                  indentation
+5     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                      indentation
+6     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                          indentation
+7     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                          indentation
+8     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                          indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                          indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                          indentation
+12    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                  indentation
+13    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                      indentation
+14    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                          indentation
+15    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                          indentation
+16    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                          indentation
+17    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                          indentation
+18    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                          indentation
+20    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                  indentation
+21    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                      indentation
+22    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                          indentation
+23    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                          indentation
+24    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                          indentation
+25    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                          indentation
+26    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                          indentation
+27    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                          indentation
+29    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                  indentation
+30    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                      indentation
+31    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                          indentation
+32    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                          indentation
+33    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                          indentation
+34    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                          indentation
+35    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                          indentation",30,"FeatureFileWithMismatchedNameLinter
+  Feature file name does not match feature name.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_structured_error_system_error_error.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-064'. Move tag to Feature level.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_structured_error_system_error_error.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_structured_error_system_error_error.feature:2",3,"S004 L5: Line 5: Scenario should not be indented
+S004 L6: Line 6: Expected indent 2, got 4
+S004 L7: Line 7: Expected indent 2, got 4
+S004 L8: Line 8: Expected indent 2, got 4
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L13: Line 13: Scenario should not be indented
+S004 L14: Line 14: Expected indent 2, got 4
+S004 L15: Line 15: Expected indent 2, got 4
+S004 L16: Line 16: Expected indent 2, got 4
+S004 L17: Line 17: Expected indent 2, got 4
+S004 L18: Line 18: Expected indent 2, got 4
+S004 L21: Line 21: Scenario should not be indented
+S004 L22: Line 22: Expected indent 2, got 4
+S004 L23: Line 23: Expected indent 2, got 4
+S004 L24: Line 24: Expected indent 2, got 4
+S004 L25: Line 25: Expected indent 2, got 4
+S004 L26: Line 26: Expected indent 2, got 4
+S004 L27: Line 27: Expected indent 2, got 4
+S004 L30: Line 30: Scenario should not be indented
+S004 L31: Line 31: Expected indent 2, got 4
+S004 L32: Line 32: Expected indent 2, got 4
+S004 L33: Line 33: Expected indent 2, got 4
+S004 L34: Line 34: Expected indent 2, got 4
+S004 L35: Line 35: Expected indent 2, got 4",25,,0,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_i0fvpx5m/basic-operations-structured-error-system.feature
+FeatureFileWithMismatchedNameLinter
+  Feature file name does not match feature name.
+    /tmp/bdd_fix_i0fvpx5m/basic-operations-structured-error-system.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-064'. Move tag to Feature level.
+    /tmp/bdd_fix_i0fvpx5m/basic-operations-structured-error-system.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_i0fvpx5m/basic-operations-structured-error-system.feature:2",4,,0,30,-1
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_context_integration.feature,"0     File names should be written in kebab-case e.g. ""basic-operations-context-integration.feature""    file-name
+4     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                  indentation
+5     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                      indentation
+6     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+7     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+8     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+12    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                  indentation
+13    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                      indentation
+14    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+15    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+16    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+17    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+18    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+19    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+21    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                  indentation
+22    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                      indentation
+23    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+24    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+25    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+26    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+27    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+28    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+30    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                  indentation
+31    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                      indentation
+32    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+33    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+34    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+35    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+36    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+38    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                  indentation
+39    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                      indentation
+40    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+41    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+42    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+43    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+44    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+46    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                  indentation
+47    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                      indentation
+48    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+49    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+50    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+51    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation
+52    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                          indentation",45,"ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-017'. Move tag to Feature level.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_context_integration.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_context_integration.feature:2",2,"S004 L5: Line 5: Scenario should not be indented
+S004 L6: Line 6: Expected indent 2, got 4
+S004 L7: Line 7: Expected indent 2, got 4
+S004 L8: Line 8: Expected indent 2, got 4
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L13: Line 13: Scenario should not be indented
+S004 L14: Line 14: Expected indent 2, got 4
+S004 L15: Line 15: Expected indent 2, got 4
+S004 L16: Line 16: Expected indent 2, got 4
+S004 L17: Line 17: Expected indent 2, got 4
+S004 L18: Line 18: Expected indent 2, got 4
+S004 L19: Line 19: Expected indent 2, got 4
+S004 L22: Line 22: Scenario should not be indented
+S004 L23: Line 23: Expected indent 2, got 4
+S004 L24: Line 24: Expected indent 2, got 4
+S004 L25: Line 25: Expected indent 2, got 4
+S004 L26: Line 26: Expected indent 2, got 4
+S004 L27: Line 27: Expected indent 2, got 4
+S004 L28: Line 28: Expected indent 2, got 4
+S004 L31: Line 31: Scenario should not be indented
+S004 L32: Line 32: Expected indent 2, got 4
+S004 L33: Line 33: Expected indent 2, got 4
+S004 L34: Line 34: Expected indent 2, got 4
+S004 L35: Line 35: Expected indent 2, got 4
+S004 L36: Line 36: Expected indent 2, got 4
+S004 L39: Line 39: Scenario should not be indented
+S004 L40: Line 40: Expected indent 2, got 4
+S004 L41: Line 41: Expected indent 2, got 4
+S004 L42: Line 42: Expected indent 2, got 4
+S004 L43: Line 43: Expected indent 2, got 4
+S004 L44: Line 44: Expected indent 2, got 4
+S004 L47: Line 47: Scenario should not be indented
+S004 L48: Line 48: Expected indent 2, got 4
+S004 L49: Line 49: Expected indent 2, got 4
+S004 L50: Line 50: Expected indent 2, got 4
+S004 L51: Line 51: Expected indent 2, got 4
+S004 L52: Line 52: Expected indent 2, got 4",38,,0,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_n939oki1/basic-operations-context-integration.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-017'. Move tag to Feature level.
+    /tmp/bdd_fix_n939oki1/basic-operations-context-integration.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_n939oki1/basic-operations-context-integration.feature:2",3,,0,45,-1
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/check_package_state_before_operations_operations.feature,"0     File names should be written in kebab-case e.g. ""check-package-state-before-operations-operations.feature""    file-name
+4     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                              indentation
+5     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                  indentation
+6     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+7     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+8     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+12    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                              indentation
+13    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                  indentation
+14    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+15    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+16    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+17    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+18    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+20    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                              indentation
+21    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                  indentation
+22    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+23    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+24    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+25    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+26    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+28    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                              indentation
+29    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                  indentation
+30    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+31    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+32    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+33    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+34    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+36    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                              indentation
+37    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                  indentation
+38    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+39    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+40    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+41    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation
+42    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                      indentation",36,"FeatureFileWithMismatchedNameLinter
+  Feature file name does not match feature name.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/check_package_state_before_operations_operations.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-080'. Move tag to Feature level.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/check_package_state_before_operations_operations.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/check_package_state_before_operations_operations.feature:2
+TestWithBadNameLinter
+  ""Test"", ""Verify"" and ""Check"" should not be used in scenario names.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/check_package_state_before_operations_operations.feature:5
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/check_package_state_before_operations_operations.feature:13
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/check_package_state_before_operations_operations.feature:21",6,"S004 L5: Line 5: Scenario should not be indented
+S004 L6: Line 6: Expected indent 2, got 4
+S004 L7: Line 7: Expected indent 2, got 4
+S004 L8: Line 8: Expected indent 2, got 4
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L13: Line 13: Scenario should not be indented
+S004 L14: Line 14: Expected indent 2, got 4
+S004 L15: Line 15: Expected indent 2, got 4
+S004 L16: Line 16: Expected indent 2, got 4
+S004 L17: Line 17: Expected indent 2, got 4
+S004 L18: Line 18: Expected indent 2, got 4
+S004 L21: Line 21: Scenario should not be indented
+S004 L22: Line 22: Expected indent 2, got 4
+S004 L23: Line 23: Expected indent 2, got 4
+S004 L24: Line 24: Expected indent 2, got 4
+S004 L25: Line 25: Expected indent 2, got 4
+S004 L26: Line 26: Expected indent 2, got 4
+S004 L29: Line 29: Scenario should not be indented
+S004 L30: Line 30: Expected indent 2, got 4
+S004 L31: Line 31: Expected indent 2, got 4
+S004 L32: Line 32: Expected indent 2, got 4
+S004 L33: Line 33: Expected indent 2, got 4
+S004 L34: Line 34: Expected indent 2, got 4
+S004 L37: Line 37: Scenario should not be indented
+S004 L38: Line 38: Expected indent 2, got 4
+S004 L39: Line 39: Expected indent 2, got 4
+S004 L40: Line 40: Expected indent 2, got 4
+S004 L41: Line 41: Expected indent 2, got 4
+S004 L42: Line 42: Expected indent 2, got 4",30,,0,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_s4vm0eh7/check-package-state-before-operations.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-080'. Move tag to Feature level.
+    /tmp/bdd_fix_s4vm0eh7/check-package-state-before-operations.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_s4vm0eh7/check-package-state-before-operations.feature:2
+TestWithBadNameLinter
+  ""Test"", ""Verify"" and ""Check"" should not be used in scenario names.
+    /tmp/bdd_fix_s4vm0eh7/check-package-state-before-operations.feature:5
+    /tmp/bdd_fix_s4vm0eh7/check-package-state-before-operations.feature:13
+    /tmp/bdd_fix_s4vm0eh7/check-package-state-before-operations.feature:21",6,,0,36,0
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_error_handling_best_practices_error_checking_operations.feature,"0     File names should be written in kebab-case e.g. ""basic-operations-error-handling-best-practices-error-checking-operations.feature""    file-name
+4     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                                      indentation
+5     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                                          indentation
+6     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+7     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+8     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+12    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                                      indentation
+13    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                                          indentation
+14    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+15    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+16    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+17    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+18    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+20    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                                      indentation
+21    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                                          indentation
+22    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+23    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+24    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+25    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+26    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+28    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                                      indentation
+29    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                                          indentation
+30    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+31    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+32    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+33    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+34    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+35    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+37    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                                      indentation
+38    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                                          indentation
+39    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+40    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+41    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+42    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+43    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+45    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                                      indentation
+46    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                                          indentation
+47    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+48    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+49    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+50    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation
+51    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                              indentation",44,"FeatureFileWithMismatchedNameLinter
+  Feature file name does not match feature name.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_error_handling_best_practices_error_checking_operations.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-071'. Move tag to Feature level.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_error_handling_best_practices_error_checking_operations.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_error_handling_best_practices_error_checking_operations.feature:2
+TestWithBadNameLinter
+  ""Test"", ""Verify"" and ""Check"" should not be used in scenario names.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_error_handling_best_practices_error_checking_operations.feature:5",4,"S004 L5: Line 5: Scenario should not be indented
+S004 L6: Line 6: Expected indent 2, got 4
+S004 L7: Line 7: Expected indent 2, got 4
+S004 L8: Line 8: Expected indent 2, got 4
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L13: Line 13: Scenario should not be indented
+S004 L14: Line 14: Expected indent 2, got 4
+S004 L15: Line 15: Expected indent 2, got 4
+S004 L16: Line 16: Expected indent 2, got 4
+S004 L17: Line 17: Expected indent 2, got 4
+S004 L18: Line 18: Expected indent 2, got 4
+S004 L21: Line 21: Scenario should not be indented
+S004 L22: Line 22: Expected indent 2, got 4
+S004 L23: Line 23: Expected indent 2, got 4
+S004 L24: Line 24: Expected indent 2, got 4
+S004 L25: Line 25: Expected indent 2, got 4
+S004 L26: Line 26: Expected indent 2, got 4
+S004 L29: Line 29: Scenario should not be indented
+S004 L30: Line 30: Expected indent 2, got 4
+S004 L31: Line 31: Expected indent 2, got 4
+S004 L32: Line 32: Expected indent 2, got 4
+S004 L33: Line 33: Expected indent 2, got 4
+S004 L34: Line 34: Expected indent 2, got 4
+S004 L35: Line 35: Expected indent 2, got 4
+S004 L38: Line 38: Scenario should not be indented
+S004 L39: Line 39: Expected indent 2, got 4
+S004 L40: Line 40: Expected indent 2, got 4
+S004 L41: Line 41: Expected indent 2, got 4
+S004 L42: Line 42: Expected indent 2, got 4
+S004 L43: Line 43: Expected indent 2, got 4
+S004 L46: Line 46: Scenario should not be indented
+S004 L47: Line 47: Expected indent 2, got 4
+S004 L48: Line 48: Expected indent 2, got 4
+S004 L49: Line 49: Expected indent 2, got 4
+S004 L50: Line 50: Expected indent 2, got 4
+S004 L51: Line 51: Expected indent 2, got 4",37,,0,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_ybn_tmmp/basic-operations-error-handling-best-practices-error-checking.feature
+FeatureFileWithMismatchedNameLinter
+  Feature file name does not match feature name.
+    /tmp/bdd_fix_ybn_tmmp/basic-operations-error-handling-best-practices-error-checking.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-071'. Move tag to Feature level.
+    /tmp/bdd_fix_ybn_tmmp/basic-operations-error-handling-best-practices-error-checking.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_ybn_tmmp/basic-operations-error-handling-best-practices-error-checking.feature:2
+TestWithBadNameLinter
+  ""Test"", ""Verify"" and ""Check"" should not be used in scenario names.
+    /tmp/bdd_fix_ybn_tmmp/basic-operations-error-handling-best-practices-error-checking.feature:5",5,,0,44,-1
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_use_structured_errors_for_better_debugging_error.feature,"0     File names should be written in kebab-case e.g. ""basic-operations-use-structured-errors-for-better-debugging-error.feature""    file-name
+4     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                               indentation
+5     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                                   indentation
+6     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+7     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+8     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+12    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                               indentation
+13    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                                   indentation
+14    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+15    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+16    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+17    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+18    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+20    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                               indentation
+21    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                                   indentation
+22    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+23    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+24    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+25    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+26    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+28    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                               indentation
+29    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                                   indentation
+30    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+31    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+32    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+33    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+34    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+35    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+37    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                               indentation
+38    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                                   indentation
+39    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+40    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+41    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+42    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+43    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+44    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+46    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                               indentation
+47    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                                   indentation
+48    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+49    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+50    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+51    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation
+52    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                                       indentation",45,"FeatureFileWithMismatchedNameLinter
+  Feature file name does not match feature name.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_use_structured_errors_for_better_debugging_error.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-073'. Move tag to Feature level.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_use_structured_errors_for_better_debugging_error.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/basic_operations_use_structured_errors_for_better_debugging_error.feature:2",3,"S004 L5: Line 5: Scenario should not be indented
+S004 L6: Line 6: Expected indent 2, got 4
+S004 L7: Line 7: Expected indent 2, got 4
+S004 L8: Line 8: Expected indent 2, got 4
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L13: Line 13: Scenario should not be indented
+S004 L14: Line 14: Expected indent 2, got 4
+S004 L15: Line 15: Expected indent 2, got 4
+S004 L16: Line 16: Expected indent 2, got 4
+S004 L17: Line 17: Expected indent 2, got 4
+S004 L18: Line 18: Expected indent 2, got 4
+S004 L21: Line 21: Scenario should not be indented
+S004 L22: Line 22: Expected indent 2, got 4
+S004 L23: Line 23: Expected indent 2, got 4
+S004 L24: Line 24: Expected indent 2, got 4
+S004 L25: Line 25: Expected indent 2, got 4
+S004 L26: Line 26: Expected indent 2, got 4
+S004 L29: Line 29: Scenario should not be indented
+S004 L30: Line 30: Expected indent 2, got 4
+S004 L31: Line 31: Expected indent 2, got 4
+S004 L32: Line 32: Expected indent 2, got 4
+S004 L33: Line 33: Expected indent 2, got 4
+S004 L34: Line 34: Expected indent 2, got 4
+S004 L35: Line 35: Expected indent 2, got 4
+S004 L38: Line 38: Scenario should not be indented
+S004 L39: Line 39: Expected indent 2, got 4
+S004 L40: Line 40: Expected indent 2, got 4
+S004 L41: Line 41: Expected indent 2, got 4
+S004 L42: Line 42: Expected indent 2, got 4
+S004 L43: Line 43: Expected indent 2, got 4
+S004 L44: Line 44: Expected indent 2, got 4
+S004 L47: Line 47: Scenario should not be indented
+S004 L48: Line 48: Expected indent 2, got 4
+S004 L49: Line 49: Expected indent 2, got 4
+S004 L50: Line 50: Expected indent 2, got 4
+S004 L51: Line 51: Expected indent 2, got 4
+S004 L52: Line 52: Expected indent 2, got 4",38,,0,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_ussjyxsg/basic-operations-use-structured-errors-for-better-debugging.feature
+FeatureFileWithMismatchedNameLinter
+  Feature file name does not match feature name.
+    /tmp/bdd_fix_ussjyxsg/basic-operations-use-structured-errors-for-better-debugging.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-073'. Move tag to Feature level.
+    /tmp/bdd_fix_ussjyxsg/basic-operations-use-structured-errors-for-better-debugging.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_ussjyxsg/basic-operations-use-structured-errors-for-better-debugging.feature:2",4,,0,45,-1
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/concurrency_current_limitations.feature,"0     File names should be written in kebab-case e.g. ""concurrency-current-limitations.feature""    file-name
+4     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2             indentation
+5     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                 indentation
+6     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+7     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+8     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+11    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+12    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                     indentation
+14    Multiple empty lines are not allowed                                                         no-multiple-empty-lines",11,"FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/concurrency_current_limitations.feature:2",1,"S004 L5: Line 5: Scenario should not be indented
+S004 L6: Line 6: Expected indent 2, got 4
+S004 L7: Line 7: Expected indent 2, got 4
+S004 L8: Line 8: Expected indent 2, got 4
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L11: Line 11: Expected indent 2, got 4
+S004 L12: Line 12: Expected indent 2, got 4",8,14    Multiple empty lines are not allowed    no-multiple-empty-lines,1,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_wr9rhjq2/concurrency-current-limitations.feature
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_wr9rhjq2/concurrency-current-limitations.feature:2",2,,0,10,-1
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/close_package_with_cleanup_operations.feature,"0     File names should be written in kebab-case e.g. ""close-package-with-cleanup-operations.feature""    file-name
+4     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                   indentation
+5     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                       indentation
+6     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+7     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+8     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+11    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+13    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                   indentation
+14    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                       indentation
+15    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+16    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+17    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+18    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+19    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+20    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+22    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                   indentation
+23    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                       indentation
+24    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+25    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+26    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+27    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+28    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+30    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                   indentation
+31    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                       indentation
+32    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+33    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+34    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+35    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+36    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+37    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+39    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                   indentation
+40    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                       indentation
+41    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+42    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+43    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+45    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                   indentation
+46    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                       indentation
+47    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+48    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+49    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+50    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation
+51    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                           indentation",44,"FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/close_package_with_cleanup_operations.feature:2",1,"S004 L5: Line 5: Scenario should not be indented
+S004 L6: Line 6: Expected indent 2, got 4
+S004 L7: Line 7: Expected indent 2, got 4
+S004 L8: Line 8: Expected indent 2, got 4
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L11: Line 11: Expected indent 2, got 4
+S004 L14: Line 14: Scenario should not be indented
+S004 L15: Line 15: Expected indent 2, got 4
+S004 L16: Line 16: Expected indent 2, got 4
+S004 L17: Line 17: Expected indent 2, got 4
+S004 L18: Line 18: Expected indent 2, got 4
+S004 L19: Line 19: Expected indent 2, got 4
+S004 L20: Line 20: Expected indent 2, got 4
+S004 L23: Line 23: Scenario should not be indented
+S004 L24: Line 24: Expected indent 2, got 4
+S004 L25: Line 25: Expected indent 2, got 4
+S004 L26: Line 26: Expected indent 2, got 4
+S004 L27: Line 27: Expected indent 2, got 4
+S004 L28: Line 28: Expected indent 2, got 4
+S004 L31: Line 31: Scenario should not be indented
+S004 L32: Line 32: Expected indent 2, got 4
+S004 L33: Line 33: Expected indent 2, got 4
+S004 L34: Line 34: Expected indent 2, got 4
+S004 L35: Line 35: Expected indent 2, got 4
+S004 L36: Line 36: Expected indent 2, got 4
+S004 L37: Line 37: Expected indent 2, got 4
+S004 L40: Line 40: Scenario should not be indented
+S004 L41: Line 41: Expected indent 2, got 4
+S004 L42: Line 42: Expected indent 2, got 4
+S004 L43: Line 43: Expected indent 2, got 4
+S004 L46: Line 46: Scenario should not be indented
+S004 L47: Line 47: Expected indent 2, got 4
+S004 L48: Line 48: Expected indent 2, got 4
+S004 L49: Line 49: Expected indent 2, got 4
+S004 L50: Line 50: Expected indent 2, got 4
+S004 L51: Line 51: Expected indent 2, got 4",37,,0,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_lfb32og6/close-package-with-cleanup-operations.feature
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_lfb32og6/close-package-with-cleanup-operations.feature:2",2,,0,44,-1
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/common_error_scenarios_error_error.feature,"0     File names should be written in kebab-case e.g. ""common-error-scenarios-error-error.feature""    file-name
+4     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                indentation
+5     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                    indentation
+6     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+7     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+8     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+11    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+13    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                indentation
+14    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                    indentation
+15    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+16    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+17    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+18    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+19    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+21    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                indentation
+22    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                    indentation
+23    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+24    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+25    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+26    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+27    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+29    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                indentation
+30    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                    indentation
+31    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+32    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+33    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+34    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+35    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+37    Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                indentation
+38    Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                    indentation
+39    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+40    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+41    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+42    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation
+43    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                        indentation",37,"FeatureFileWithMismatchedNameLinter
+  Feature file name does not match feature name.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/common_error_scenarios_error_error.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-070'. Move tag to Feature level.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/common_error_scenarios_error_error.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/common_error_scenarios_error_error.feature:2",3,"S004 L5: Line 5: Scenario should not be indented
+S004 L6: Line 6: Expected indent 2, got 4
+S004 L7: Line 7: Expected indent 2, got 4
+S004 L8: Line 8: Expected indent 2, got 4
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L11: Line 11: Expected indent 2, got 4
+S004 L14: Line 14: Scenario should not be indented
+S004 L15: Line 15: Expected indent 2, got 4
+S004 L16: Line 16: Expected indent 2, got 4
+S004 L17: Line 17: Expected indent 2, got 4
+S004 L18: Line 18: Expected indent 2, got 4
+S004 L19: Line 19: Expected indent 2, got 4
+S004 L22: Line 22: Scenario should not be indented
+S004 L23: Line 23: Expected indent 2, got 4
+S004 L24: Line 24: Expected indent 2, got 4
+S004 L25: Line 25: Expected indent 2, got 4
+S004 L26: Line 26: Expected indent 2, got 4
+S004 L27: Line 27: Expected indent 2, got 4
+S004 L30: Line 30: Scenario should not be indented
+S004 L31: Line 31: Expected indent 2, got 4
+S004 L32: Line 32: Expected indent 2, got 4
+S004 L33: Line 33: Expected indent 2, got 4
+S004 L34: Line 34: Expected indent 2, got 4
+S004 L35: Line 35: Expected indent 2, got 4
+S004 L38: Line 38: Scenario should not be indented
+S004 L39: Line 39: Expected indent 2, got 4
+S004 L40: Line 40: Expected indent 2, got 4
+S004 L41: Line 41: Expected indent 2, got 4
+S004 L42: Line 42: Expected indent 2, got 4
+S004 L43: Line 43: Expected indent 2, got 4",31,,0,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_9vtyinix/common-error-scenarios.feature
+ElementWithCommonTagsLinter
+  All tests in Feature have tag '@REQ-API_BASIC-070'. Move tag to Feature level.
+    /tmp/bdd_fix_9vtyinix/common-error-scenarios.feature:2
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_9vtyinix/common-error-scenarios.feature:2",3,,0,37,0
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/createwithoptions_parameters_requirement.feature,"0     File names should be written in kebab-case e.g. ""createwithoptions-parameters-requirement.feature""    file-name
+4     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                      indentation
+5     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                          indentation
+6     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                              indentation
+7     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                              indentation
+8     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                              indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                              indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                              indentation
+11    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                              indentation
+12    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                              indentation
+13    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                              indentation
+15    Multiple empty lines are not allowed                                                                  no-multiple-empty-lines",12,"FeatureFileWithMismatchedNameLinter
+  Feature file name does not match feature name.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/createwithoptions_parameters_requirement.feature
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/createwithoptions_parameters_requirement.feature:2",2,"S004 L5: Line 5: Scenario should not be indented
+S004 L6: Line 6: Expected indent 2, got 4
+S004 L7: Line 7: Expected indent 2, got 4
+S004 L8: Line 8: Expected indent 2, got 4
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L11: Line 11: Expected indent 2, got 4
+S004 L12: Line 12: Expected indent 2, got 4
+S004 L13: Line 13: Expected indent 2, got 4",9,15    Multiple empty lines are not allowed    no-multiple-empty-lines,1,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_9uxcw_dn/createwithoptions-parameters.feature
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_9uxcw_dn/createwithoptions-parameters.feature:2",2,,0,11,0
+Novus-Engine-novuspack,/home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/createoptions_structure_initial_package_configuration.feature,"0     File names should be written in kebab-case e.g. ""createoptions-structure-initial-package-configuration.feature""    file-name
+4     Wrong indentation for ""scenario tag"", expected indentation level of 0, but got 2                                   indentation
+5     Wrong indentation for ""Scenario"", expected indentation level of 0, but got 2                                       indentation
+6     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                           indentation
+7     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                           indentation
+8     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                           indentation
+9     Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                           indentation
+10    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                           indentation
+11    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                           indentation
+12    Wrong indentation for ""Step"", expected indentation level of 2, but got 4                                           indentation
+14    Multiple empty lines are not allowed                                                                               no-multiple-empty-lines",11,"FeatureFileWithMismatchedNameLinter
+  Feature file name does not match feature name.
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/createoptions_structure_initial_package_configuration.feature
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/createoptions_structure_initial_package_configuration.feature:2
+StepWithTooManyCharactersLinter
+  Step is too long. 85 characters found (max 80)
+    /home/vaishnavkoka/RE4BDD/Phase-workout-for-bdd/phase-3 (refinement)/phase-3-part-2-cloning/github-global-search/Novus-Engine-novuspack/features/basic_ops/createoptions_structure_initial_package_configuration.feature:11",3,"S004 L5: Line 5: Scenario should not be indented
+S004 L6: Line 6: Expected indent 2, got 4
+S004 L7: Line 7: Expected indent 2, got 4
+S004 L8: Line 8: Expected indent 2, got 4
+S004 L9: Line 9: Expected indent 2, got 4
+S004 L10: Line 10: Expected indent 2, got 4
+S004 L11: Line 11: Expected indent 2, got 4
+S004 L12: Line 12: Expected indent 2, got 4",8,14    Multiple empty lines are not allowed    no-multiple-empty-lines,1,"FeatureFileWithInvalidNameLinter
+  Feature files should be snake_cased.
+    /tmp/bdd_fix_247q7hj4/createoptions-structure-defines-initial-configuration.feature
+FeatureWithoutDescriptionLinter
+  Feature has no description
+    /tmp/bdd_fix_247q7hj4/createoptions-structure-defines-initial-configuration.feature:2
+StepWithTooManyCharactersLinter
+  Step is too long. 85 characters found (max 80)
+    /tmp/bdd_fix_247q7hj4/createoptions-structure-defines-initial-configuration.feature:11",3,,0,10,0
