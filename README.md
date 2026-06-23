@@ -124,6 +124,8 @@ The complete dataset, all 20,034 rows, is too large for this repository (about
 550 MB) and is archived on Zenodo:
 
 > Full dataset (Zenodo): [Zenodo Dataset](https://zenodo.org/records/20795204)
+>
+> Video demonstration: [Tool Demo](https://www.youtube.com/watch?v=VIDEO_ID)
 
 ## Repository layout
 
