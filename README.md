@@ -123,7 +123,7 @@ are documented in [results/README.md](results/README.md).
 The complete dataset, all 20,034 rows, is too large for this repository (about
 550 MB) and is archived on Zenodo:
 
-> Full dataset (Zenodo): `(https://zenodo.org/records/20795204)`
+> Full dataset (Zenodo): [Zenodo Dataset](https://zenodo.org/records/20795204)
 
 ## Repository layout
 
@@ -150,12 +150,6 @@ unified-bdd-linter/
 |-- requirements.txt
 `-- LICENSE
 ```
-
-## Citation
-
-If you use this software or the dataset, please cite them. GitHub renders a
-"Cite this repository" option from [CITATION.cff](CITATION.cff); the same
-metadata can be exported to BibTeX from there.
 
 ## A note on the results
 
