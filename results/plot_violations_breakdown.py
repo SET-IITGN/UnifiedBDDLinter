@@ -23,7 +23,7 @@ import matplotlib.patches as mpatches
 import numpy as np
 
 # ============================== CONFIG (tweak me) ==============================
-CSV_PATH    = "bdd_pipeline_results.csv"
+CSV_PATH    = "results/sample_results.csv"  # sample shipped with the repo; swap for the full Zenodo CSV
 OUT_PATH    = "violations_breakdown_conf.png"
 DPI         = 150
 FIGSIZE     = (9, 5.2)

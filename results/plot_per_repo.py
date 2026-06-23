@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # ============================== CONFIG (tweak me) ==============================
-CSV_PATH    = "bdd_pipeline_results.csv"
+CSV_PATH    = "results/sample_results.csv"  # sample shipped with the repo; swap for the full Zenodo CSV
 OUT_PATH    = "per_repo_reduction_conf.png"
 DPI         = 150
 FIGSIZE     = (8.4, 5.2)
