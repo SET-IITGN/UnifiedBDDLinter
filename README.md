@@ -123,7 +123,7 @@ are documented in [results/README.md](results/README.md).
 The complete dataset, all 20,034 rows, is too large for this repository (about
 550 MB) and is archived on Zenodo:
 
-> Full dataset (Zenodo): `<add the DOI link once the record is published>`
+> Full dataset (Zenodo): `(https://zenodo.org/records/20795204)`
 
 ## Repository layout
 
