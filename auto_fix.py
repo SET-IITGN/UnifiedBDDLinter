@@ -204,7 +204,7 @@ class AutoFixer:
         current_file_path = Path(file_path)
         current_file_name = current_file_path.stem
         
-        # Extract Feature: name from content
+        # Extract Feature: name from content, this step is important
         feature_name = self._extract_feature_name(content)
         
         # KEY INSIGHT: Only rename if Feature has a meaningful, user-provided description
