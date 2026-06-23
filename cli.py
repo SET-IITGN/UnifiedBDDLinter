@@ -98,7 +98,7 @@ Examples:
                     print("=" * 80)
                     print(linter.format_output(violations, 'text'))
                 else:
-                    print(f"✓ {file_path}")
+                    print(f"{file_path}")
             
             print("\n" + "=" * 80)
             print(f"Summary: {linter.file_count} file(s), {total_violations} violation(s), {total_errors} error(s)")

@@ -119,7 +119,7 @@ class AutoFixer:
                 with open(new_file_path, 'w') as f:
                     f.write(fixed_content)
                 # NEVER delete/rename the original — output always goes to output_dir
-                print(f"✓ Fixed  : {original_file_path}  →  {new_file_path}")
+                print(f"Fixed  : {original_file_path}  →  {new_file_path}")
                 self.files_fixed += 1
             else:
                 print(f"[DRY RUN] Would fix: {original_file_path}  →  {new_file_path}")
@@ -131,7 +131,7 @@ class AutoFixer:
             if output_dir and not dry_run:
                 with open(new_file_path, 'w') as f:
                     f.write(fixed_content)
-            print(f"✓ Clean  : {original_file_path}  (no changes needed)")
+            print(f"Clean  : {original_file_path}  (no changes needed)")
             return new_file_path
     
     def fix_directory(self, directory: str, dry_run: bool = False, output_dir: str = None):
@@ -182,7 +182,7 @@ class AutoFixer:
         if output_file_path.exists():
             original_stem = Path(input_file_path).stem
             output_file_path = output_path / f"{desired_file_name}--{original_stem}.feature"
-            print(f"  ⚠ Name collision: saved as {output_file_path.name} (original: {Path(input_file_path).name})")
+            print(f"  Name collision: saved as {output_file_path.name} (original: {Path(input_file_path).name})")
 
         return str(output_file_path)
     
@@ -207,7 +207,7 @@ class AutoFixer:
         # Extract Feature: name from content
         feature_name = self._extract_feature_name(content)
         
-        # ✅ KEY INSIGHT: Only rename if Feature has a meaningful, user-provided description
+        # KEY INSIGHT: Only rename if Feature has a meaningful, user-provided description
         # Skip renaming if Feature is empty or auto-generated (user should fix this first)
         if not feature_name or feature_name.strip().lower() in ['', 'feature', 'auto-generated feature', 'new feature']:
             # Preserve original file name - requires user to add meaningful feature description
@@ -236,18 +236,18 @@ class AutoFixer:
         
         # Check for existing file with same name (collision)
         if new_file_path.exists() and new_file_path != current_file_path:
-            print(f"⚠ Warning: Target file {desired_full_name} already exists. Keeping original {current_file_path.name}")
+            print(f"Warning: Target file {desired_full_name} already exists. Keeping original {current_file_path.name}")
             return file_path
         
         # Perform the rename
         if not dry_run:
             try:
                 current_file_path.rename(new_file_path)
-                print(f"  📁 Renamed: {current_file_path.name} → {desired_full_name}")
+                print(f"  Renamed: {current_file_path.name} → {desired_full_name}")
                 print(f"    (Feature: '{feature_name}' now matches filename in kebab-case)")
                 return str(new_file_path)
             except OSError as e:
-                print(f"⚠ Failed to rename {current_file_path.name} to {desired_full_name}: {e}")
+                print(f"Failed to rename {current_file_path.name} to {desired_full_name}: {e}")
                 return file_path
         else:
             print(f"  [DRY RUN] Would rename: {current_file_path.name} → {desired_full_name}")

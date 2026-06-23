@@ -605,7 +605,7 @@ Examples:
                     print("=" * 80)
                     print(linter.format_violations(violations, 'text'))
                 else:
-                    print(f"✓ {file_path}")
+                    print(f"{file_path}")
             
             if results:
                 print("\n" + "=" * 80)
