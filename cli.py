@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-CLI for Unified BDD Linter
+CLI for UnifiedBDDLinter
 """
 
 import sys
