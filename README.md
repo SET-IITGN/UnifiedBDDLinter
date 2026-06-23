@@ -25,6 +25,7 @@ human.
   - [Validate](#validate)
 - [How it works](#how-it-works)
 - [Results](#results)
+- [Documentation](#documentation)
 - [Data availability](#data-availability)
 - [Repository layout](#repository-layout)
 - [A note on the results](#a-note-on-the-results)
@@ -137,6 +138,20 @@ and the bubble area is the number of violations before fixing.
 The full per-linter breakdown, the per-repository table for all 38 repositories,
 and the command-line reference are in [docs/evaluation.md](docs/evaluation.md).
 Common questions about the numbers are answered in [docs/faq.md](docs/faq.md).
+
+## Documentation
+
+The [docs/](docs/) directory carries the detail that does not fit in this README:
+
+- [docs/design.md](docs/design.md) — architecture, the full 28-rule catalog, and
+  the safe-fix boundary between what the tool repairs and what it only reports.
+- [docs/evaluation.md](docs/evaluation.md) — how the 38-repository corpus was
+  collected, the per-linter breakdown, the per-repository table, and the
+  command-line parameters.
+- [docs/faq.md](docs/faq.md) — answers to the questions that come up most often
+  about the numbers: why the residual violations are left untouched, why the
+  three linters' counts cannot be added together, what the 99.9 percent actually
+  measures, and the kebab-case versus snake-case filename conflict.
 
 ## Data availability
 
