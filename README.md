@@ -169,7 +169,7 @@ The complete dataset, all 20,034 rows, is too large for this repository (about
 ## Repository layout
 
 ```
-unified-bdd-linter/
+UnifiedBDDLinter/
 |-- linter.py              full four-family linter
 |-- cli.py                 lighter CLI (style/structure/workflow subset)
 |-- unified_linter.py      shared parser and rule engine used by cli.py
@@ -187,7 +187,6 @@ unified-bdd-linter/
 |   |-- design.md          architecture, rule catalog, safe-fix boundary
 |   |-- evaluation.md      corpus, per-linter analysis, per-repository table
 |   `-- faq.md             questions about the numbers
-|-- CITATION.cff           how to cite this work
 |-- requirements.txt
 `-- LICENSE
 ```
