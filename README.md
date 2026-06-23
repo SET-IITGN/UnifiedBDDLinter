@@ -1,5 +1,8 @@
 # UnifiedBDDLinter: A Tool to Detect and Remediate Quality Anti-Patterns in Gherkin Feature Files
 
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20795204-blue.svg)](https://doi.org/10.5281/zenodo.20795204)
+
 A linter and form-preserving auto-fixer for Gherkin `.feature` files.
 
 Gherkin specifications are both human-readable requirements and executable
@@ -11,6 +14,21 @@ issues it finds while leaving anything that would change a test's meaning to a
 human.
 
 ![Workflow](results/figures/workflow.svg)
+
+## Table of Contents
+
+- [What it checks](#what-it-checks)
+- [Installation](#installation)
+- [Usage](#usage)
+  - [Lint](#lint)
+  - [Fix](#fix)
+  - [Validate](#validate)
+- [How it works](#how-it-works)
+- [Results](#results)
+- [Data availability](#data-availability)
+- [Repository layout](#repository-layout)
+- [A note on the results](#a-note-on-the-results)
+- [License](#license)
 
 ## What it checks
 
@@ -32,8 +50,8 @@ detect-only. The full catalog is in [docs/design.md](docs/design.md).
 ## Installation
 
 ```
-git clone https://github.com/vaishnavkoka/unified-bdd-linter.git
-cd unified-bdd-linter
+git clone https://github.com/SET-IITGN/UnifiedBDDLinter.git
+cd UnifiedBDDLinter
 ```
 
 The linter and the auto-fixer need only Python 3 (standard library). The
@@ -48,6 +66,8 @@ pip install -r requirements.txt
 
 Run the commands from the repository root.
 
+### Lint
+
 Lint a file or a directory:
 
 ```
@@ -60,6 +80,8 @@ style/structure/workflow subset and is the one the evaluation harness drives; it
 also supports `--severity`, `--summary`, and per-family toggles. Pass `--help`
 to either for the full set of options.
 
+### Fix
+
 Fix the mechanical issues. The fixer writes to a new directory and never touches
 the originals:
 
@@ -70,6 +92,8 @@ python auto_fix.py examples/ -o fixed/
 It repairs only the form-level rules. Anything that would change a scenario's
 meaning, such as a missing step, a second `When`, or an over-long name, is
 reported but left for a person to resolve.
+
+### Validate
 
 Validate differentially. The harness lints every file with three linters before
 and after the fix, using `gherkin-lint` and `cuke_linter` as independent

@@ -12,7 +12,12 @@ authors:
     given-names: Vaishnav
     email: vaishnav.koka054@gmail.com
 license: MIT
-repository-code: "https://github.com/vaishnavkoka/unified-bdd-linter"
+repository-code: "https://github.com/SET-IITGN/UnifiedBDDLinter"
+doi: "10.5281/zenodo.20795204"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.20795204"
+    description: "Zenodo archive of the accompanying dataset"
 date-released: "2026-06-23"
 keywords:
   - behavior-driven development

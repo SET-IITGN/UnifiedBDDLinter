@@ -9,7 +9,7 @@ them, and a small sample of the measurement data.
 dataset covers all 20,034 `.feature` files from the 38 repositories and is too
 large to keep in the repository (about 550 MB), so it is archived on Zenodo:
 
-> Full dataset: <ZENODO_DOI_URL>  *(add the DOI once the record is published)*
+> Full dataset: [10.5281/zenodo.20795204](https://doi.org/10.5281/zenodo.20795204)
 
 Each row corresponds to one `.feature` file. The 16 columns are:
 
