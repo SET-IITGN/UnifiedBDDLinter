@@ -1,4 +1,4 @@
-# UnifiedBDDLinter
+# UnifiedBDDLinter: A Tool to Detect and Remediate Quality Anti-Patterns in Gherkin Feature Files
 
 A linter and form-preserving auto-fixer for Gherkin `.feature` files.
 
