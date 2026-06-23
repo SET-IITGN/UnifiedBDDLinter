@@ -1,5 +1,5 @@
 """
-Unified BDD Linter - Main entry point
+UnifiedBDDLinter - Main entry point
 Combines gherkin-lint, cuke_linter, and quality rules
 """
 
