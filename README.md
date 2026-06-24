@@ -122,10 +122,10 @@ UnifiedBDDLinter was evaluated on 20,034 `.feature` files mined from 38 public
 GitHub repositories (the mining pipeline is described in
 [docs/evaluation.md](docs/evaluation.md)). With the form-preserving fixer:
 
-- gherkin-lint violations fell 85.6 percent (1,163,482 to 167,902)
-- native violations fell 79.8 percent (1,532,486 to 309,024)
-- 99.8 percent of files improved, with no regressions
-- the median repository saw a 90.7 percent reduction
+- gherkin-lint violations fell 85.6% (1,163,482 to 167,902)
+- native violations fell 79.8% (1,532,486 to 309,024)
+- 99.8% of files improved, with no regressions
+- the median repository saw a 90.7% reduction
 
 ![Violations before and after, per linter](results/figures/bdd_pipeline_plot.png)
 
@@ -150,7 +150,7 @@ The [docs/](docs/) directory carries the detail that does not fit in this README
   command-line parameters.
 - [docs/faq.md](docs/faq.md) — answers to the questions that come up most often
   about the numbers: why the residual violations are left untouched, why the
-  three linters' counts cannot be added together, what the 99.9 percent actually
+  three linters' counts cannot be added together, what the 99.9% actually
   measures, and the kebab-case versus snake-case filename conflict.
 
 ## Data availability
