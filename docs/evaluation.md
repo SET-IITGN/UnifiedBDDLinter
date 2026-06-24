@@ -45,14 +45,14 @@ On the 20,034 files, with the form-preserving fixer:
 - 99.8 percent of files improved, with no regressions
 - the median repository saw a 90.7 percent reduction
 
-![Violations before and after, per linter](../results/figures/bdd_pipeline_plot.png)
+![Violations before and after, per linter](../results/figures/bdd_pipeline_plot_conf.png)
 
 The per-repository view shows the result is broad-based rather than driven by a
 few large projects. Each bubble is one repository; the horizontal axis is its
 size, the vertical axis its gherkin-lint reduction, and the bubble size is the
 number of violations before fixing.
 
-![Per-repository reduction against size](../results/figures/per_repo_reduction.png)
+![Per-repository reduction against size](../results/figures/per_repo_reduction_conf.png)
 
 ## Per-linter breakdown
 
@@ -115,8 +115,6 @@ worse because of the kebab-versus-snake conflict. Fully resolving the filename
 conflict would only move cuke from -1.5 percent to about -2.1 percent, and it
 cannot be done without breaking gherkin-lint's requirement. That is the point of
 the mutually unsatisfiable conflict.
-
-![Per-rule resolved versus remaining](../results/figures/violations_breakdown.png)
 
 ## Per-repository results (38 repositories)
 
