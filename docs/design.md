@@ -88,15 +88,17 @@ human judgement is the central design decision of the tool.
 
 ## Two linter entry points
 
-There are two ways to run the linter, and they cover different rule sets.
+Both front-ends run the same engine in `unified_linter.py`; they differ only in
+how many rule families they enable.
 
-- `linter.py` is the full linter. It runs all four families, including the
-  Quality rules.
-- `cli.py`, built on `unified_linter.py`, runs the style, structure, and
-  workflow subset. This is the path the evaluation harness uses, because those
-  are the rules whose effect the two external linters can independently confirm.
+- `linter.py` runs the engine in full mode: all four families, including the
+  Quality (business-readability) rules. This is the complete 28-rule linter.
+- `cli.py` runs the style, structure, and workflow subset. This is the path the
+  evaluation harness uses, because those are the rules whose effect the two
+  external linters can independently confirm.
 
-The two agree on the rules they share. `linter.py` simply covers more.
+Because they share one engine, they agree exactly on the rules they have in
+common; `linter.py` simply enables more.
 
 ## Differential validation
 

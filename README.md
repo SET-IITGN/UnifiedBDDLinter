@@ -172,7 +172,7 @@ The complete dataset, all 20,034 rows, is too large for this repository (about
 UnifiedBDDLinter/
 |-- linter.py              full four-family linter
 |-- cli.py                 lighter CLI (style/structure/workflow subset)
-|-- unified_linter.py      shared parser and rule engine used by cli.py
+|-- unified_linter.py      shared parser and rule engine (cli.py + linter.py)
 |-- auto_fix.py            form-preserving auto-fixer
 |-- .unified-lintrc.json   rule severities and toggles
 |-- evaluation/
