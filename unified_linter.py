@@ -344,6 +344,29 @@ class StructureRules:
                     scenario_names[name] = i
         return violations
 
+    @staticmethod
+    def check_feature_name_match(parser: UnifiedParser, file_path: str) -> List[Violation]:
+        """ST007: Feature name should match the file name (kebab or snake case)."""
+        violations = []
+        fname = Path(file_path).stem
+        for i, line in enumerate(parser.lines, 1):
+            stripped = line.strip()
+            if stripped.startswith('Feature:'):
+                feature_name = stripped.replace('Feature:', '').strip()
+                if feature_name:
+                    kebab = feature_name.lower().replace(' ', '-')
+                    snake = feature_name.lower().replace(' ', '_')
+                    if fname.lower() not in (kebab, snake):
+                        violations.append(Violation(
+                            line=i, column=1,
+                            rule_id='ST007', rule_name='Feature/file name match',
+                            severity=RuleSeverity.ERROR,
+                            message=f'Feature name "{feature_name}" does not match file name "{fname}"',
+                            suggestion=f'Rename file to "{kebab}.feature" (kebab-case) or "{snake}.feature" (snake_case)',
+                            category='structure'))
+                break
+        return violations
+
 
 class WorkflowRules:
     """cuke_linter workflow rules"""
@@ -589,13 +612,213 @@ class WorkflowRules:
         return violations
 
 
+class QualityRules:
+    """FeatureMate-based quality checks"""
+    
+    @staticmethod
+    def check_all(parser: UnifiedParser) -> List[Violation]:
+        violations = []
+        
+        # Q001: Implementation details
+        impl_keywords = [
+            'clicks', 'selects', 'types', 'scrolls', 'presses', 'fills', 'enters', 
+            'waits', 'refreshes', 'clears', 'hovering', 'clicking', 'navigates to',
+            'button', 'link', 'input field', 'checkbox', 'page loads', 'refreshes page'
+        ]
+        
+        for i, line in enumerate(parser.lines, 1):
+            if any(line.strip().startswith(kw) for kw in ['Given', 'When', 'Then', 'And', 'But']):
+                for impl in impl_keywords:
+                    if impl.lower() in line.lower():
+                        violations.append(Violation(
+                            line=i, column=1,
+                            rule_id='Q001', rule_name='Implementation detail',
+                            severity=RuleSeverity.WARNING,
+                            message=f'Implementation detail: "{impl}"',
+                            suggestion='Use business language instead of UI actions',
+                            category='quality'
+                        ))
+                        break
+        
+        # Q002: Vague language (genuinely imprecise qualifiers)
+        vague_words = ['basic', 'simple', 'some', 'various', 'stuff', 'things',
+                       'thing', 'etc', 'and so on', 'maybe', 'probably', 'might']
+        for i, line in enumerate(parser.lines, 1):
+            stripped = line.strip()
+            if any(stripped.startswith(kw) for kw in ['Given', 'When', 'Then', 'And', 'But']):
+                low = stripped.lower()
+                for w in vague_words:
+                    if re.search(r'\b' + re.escape(w) + r'\b', low):
+                        violations.append(Violation(
+                            line=i, column=1,
+                            rule_id='Q002', rule_name='Vague language',
+                            severity=RuleSeverity.INFO,
+                            message=f'Vague term: "{w}"',
+                            suggestion='Be more specific about what you mean',
+                            category='quality'))
+                        break
+
+        # Q003: Sensible step count (ideal 3-7 steps per scenario)
+        in_scn = False; cnt = 0; scn_line = 0; scn_name = ''
+        def _q003_flush():
+            if in_scn and (cnt < 3 or cnt > 7):
+                violations.append(Violation(
+                    line=scn_line, column=1,
+                    rule_id='Q003', rule_name='Step count',
+                    severity=RuleSeverity.INFO,
+                    message=f'Scenario "{scn_name}" has {cnt} step(s) (ideal 3-7)',
+                    suggestion='Aim for 3-7 focused steps',
+                    category='quality'))
+        for i, line in enumerate(parser.lines, 1):
+            stripped = line.strip()
+            if stripped.startswith('Scenario'):
+                _q003_flush()
+                in_scn = True; cnt = 0; scn_line = i
+                scn_name = re.sub(r'^Scenario.*?:\s*', '', stripped)
+            elif in_scn and stripped.startswith(('Feature', 'Background')):
+                _q003_flush(); in_scn = False
+            if in_scn and any(stripped.startswith(kw) for kw in ['Given', 'When', 'Then', 'And', 'But']):
+                cnt += 1
+        _q003_flush()
+
+        # Q004 / Q005: scenario-name quality (test jargon, too-generic name)
+        for i, line in enumerate(parser.lines, 1):
+            stripped = line.strip()
+            if stripped.startswith('Scenario'):
+                name = re.sub(r'^Scenario.*?:\s*', '', stripped)
+                low = name.lower()
+                for t in ['test', 'verify', 'check', 'validate', 'should']:
+                    if re.search(r'\b' + t + r'\b', low):
+                        violations.append(Violation(
+                            line=i, column=1,
+                            rule_id='Q004', rule_name='Test jargon in name',
+                            severity=RuleSeverity.INFO,
+                            message=f'Scenario name uses technical term: "{t}"',
+                            suggestion='Describe behaviour, not testing (what, not how)',
+                            category='quality'))
+                        break
+                if len(name) < 10:
+                    violations.append(Violation(
+                        line=i, column=1,
+                        rule_id='Q005', rule_name='Vague scenario name',
+                        severity=RuleSeverity.INFO,
+                        message=f'Scenario name too generic: "{name}"',
+                        suggestion='Use a descriptive scenario name',
+                        category='quality'))
+
+        # Q006: Hardcoded mock data
+        mock_patterns = [
+            (r'\buser123\b', 'a hardcoded user id'),
+            (r'\btest@test\.com\b', 'a hardcoded email'),
+            (r'\bpassword123\b', 'a hardcoded password'),
+            (r'\bjohn[ ._-]?doe\b', 'a hardcoded name'),
+            (r'\b999-99-9999\b', 'a hardcoded SSN'),
+        ]
+        for i, line in enumerate(parser.lines, 1):
+            stripped = line.strip()
+            if any(stripped.startswith(kw) for kw in ['Given', 'When', 'Then', 'And', 'But']):
+                for pat, desc in mock_patterns:
+                    if re.search(pat, stripped, re.IGNORECASE):
+                        violations.append(Violation(
+                            line=i, column=1,
+                            rule_id='Q006', rule_name='Mock data',
+                            severity=RuleSeverity.INFO,
+                            message=f'Step contains {desc}',
+                            suggestion='Use Examples tables or parameterised data',
+                            category='quality'))
+                        break
+
+        # Q007: Unclear negation (double negatives)
+        neg_pat = '|'.join([r'should\s+not\s+be\s+unable', r'should\s+not\s+fail',
+                            r'should\s+not\s+be\s+invalid', r'is\s+not\s+disabled',
+                            r'is\s+not\s+hidden'])
+        for i, line in enumerate(parser.lines, 1):
+            stripped = line.strip()
+            if any(stripped.startswith(kw) for kw in ['Given', 'When', 'Then', 'And', 'But']):
+                if re.search(neg_pat, stripped, re.IGNORECASE):
+                    violations.append(Violation(
+                        line=i, column=1,
+                        rule_id='Q007', rule_name='Unclear negation',
+                        severity=RuleSeverity.WARNING,
+                        message='Step uses a complex double negation',
+                        suggestion='Rewrite as a positive assertion',
+                        category='quality'))
+
+        # Q008: Near-duplicate scenarios (same opening words)
+        seen = {}
+        for i, line in enumerate(parser.lines, 1):
+            stripped = line.strip()
+            if stripped.startswith('Scenario'):
+                name = re.sub(r'^Scenario.*?:\s*', '', stripped).lower()
+                key = ' '.join(name.split()[:3])
+                if key and key in seen:
+                    violations.append(Violation(
+                        line=i, column=1,
+                        rule_id='Q008', rule_name='Similar scenarios',
+                        severity=RuleSeverity.INFO,
+                        message=f'Scenario may duplicate the one at line {seen[key]}',
+                        suggestion='Consider a Scenario Outline for variations',
+                        category='quality'))
+                elif key:
+                    seen[key] = i
+
+        # SY001: Spell check (simplified - skip complex API usage)
+        try:
+            from spellchecker import SpellChecker
+            spell = SpellChecker()
+            
+            # BDD keywords to skip from spell check
+            bdd_keywords = {
+                'feature', 'scenario', 'given', 'when', 'then', 'and', 'but', 'outline',
+                'background', 'examples', 'gherkin', 'bdd', 'cucumber', 'pytest', 'behave',
+                'automation', 'qa', 'tester', 'login', 'logout', 'password', 'username',
+                'api', 'database', 'endpoint', 'payload', 'response', 'request',
+                'selenium', 'webdriver', 'application', 'authentication',
+            }
+            
+            for i, line in enumerate(parser.lines, 1):
+                stripped = line.strip()
+                # Check feature, scenario, and step lines
+                if any(stripped.startswith(kw) for kw in ['Feature:', 'Scenario:', 'Given', 'When', 'Then', 'And', 'But']):
+                    # Extract text (remove gherkin keywords)
+                    text = re.sub(r'^(Feature:|Scenario:|Scenario Outline:|Given|When|Then|And|But|Background:)\s*', '', stripped, flags=re.IGNORECASE)
+                    
+                    # Split by spaces and special chars
+                    words = re.findall(r'\b[a-zA-Z]+(?:_[a-zA-Z]+)?\b', text)
+                    misspelled = spell.unknown(words)
+                    
+                    for word in misspelled:
+                        # Skip if it's a BDD keyword or too short
+                        if len(word) > 2 and word.lower() not in bdd_keywords and not word.isdigit():
+                            suggestions = spell.correction(word)
+                            col = line.find(word)
+                            if col >= 0 and suggestions != word:
+                                violations.append(Violation(
+                                    line=i, column=col,
+                                    rule_id='SY001', rule_name='Spelling error',
+                                    severity=RuleSeverity.INFO,
+                                    message=f'Possible spelling error: "{word}"',
+                                    suggestion=f'Did you mean "{suggestions}"?',
+                                    category='quality'
+                                ))
+        except Exception as e:
+            # Skip spell check on any error
+            pass
+        
+        return violations
+
+
 class UnifiedLinter:
     """Main linter combining all rules"""
     
-    def __init__(self):
+    def __init__(self, full: bool = False):
         self.violations: List[Violation] = []
         self.file_count = 0
         self.total_violations = 0
+        # full=True runs the complete 28-rule engine (adds ST007 + the Quality
+        # family). Off by default, so cli.py and the differential harness keep
+        # the oracle-checkable 18-rule subset and reproduce the reported results.
+        self.full = full
     
     def lint_file(self, file_path: str) -> List[Violation]:
         """Lint a single feature file"""
@@ -625,7 +848,13 @@ class UnifiedLinter:
         violations.extend(WorkflowRules.check_no_action_step(parser))
         violations.extend(WorkflowRules.check_step_with_period(parser))
         violations.extend(WorkflowRules.check_too_many_steps(parser))
-        
+
+        # Full mode (28-rule engine): filename<->feature match (ST007) and the
+        # Quality family. Excluded from the default (cli.py / harness) run.
+        if self.full:
+            violations.extend(StructureRules.check_feature_name_match(parser, file_path))
+            violations.extend(QualityRules.check_all(parser))
+
         # Sort by line number
         violations.sort(key=lambda v: (v.line, v.column))
         
