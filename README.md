@@ -127,13 +127,13 @@ GitHub repositories (the mining pipeline is described in
 - 99.8% of files improved, with no regressions
 - the median repository saw a 90.7% reduction
 
-![Violations before and after, per linter](results/figures/bdd_pipeline_plot.png)
+![Violations before and after, per linter](results/figures/bdd_pipeline_plot_conf.png)
 
 The result is broad-based rather than driven by a few large projects. Each bubble
 below is one repository: size on the horizontal axis, reduction on the vertical,
 and the bubble area is the number of violations before fixing.
 
-![Per-repository reduction against size](results/figures/per_repo_reduction.png)
+![Per-repository reduction against size](results/figures/per_repo_reduction_conf.png)
 
 The full per-linter breakdown, the per-repository table for all 38 repositories,
 and the command-line reference are in [docs/evaluation.md](docs/evaluation.md).

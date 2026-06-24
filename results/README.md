@@ -46,12 +46,11 @@ Notes:
 | File | What it shows |
 | --- | --- |
 | `figures/workflow.svg` | the per-file lint, fix, lint workflow |
-| `figures/bdd_pipeline_plot.png` | total violations before and after, per linter |
-| `figures/per_repo_reduction.png` | gherkin-lint reduction per repository against size |
-| `figures/violations_breakdown.png` | per-rule resolved vs. remaining counts |
-| `figures/architecture_diagram.png` | the shared-parse, four-family engine |
+| `figures/bdd_pipeline_plot_conf.png` | total violations before and after, per linter |
+| `figures/per_repo_reduction_conf.png` | gherkin-lint reduction per repository against size |
 
-The `*_conf.png` variants are alternate renderings produced by the same scripts.
+The plotting scripts can also emit `violations_breakdown` and other views; see
+the scripts below.
 
 ## Regenerating the figures
 
