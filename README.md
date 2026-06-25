@@ -164,7 +164,7 @@ The complete dataset, all 20,034 rows, is too large for this repository (about
 
 > Full dataset (Zenodo): [Zenodo Dataset](https://zenodo.org/records/20795204)
 >
-> Video demonstration: [Tool Demo](https://www.youtube.com/watch?v=VIDEO_ID)
+> Video demonstration: [Tool Demo](https://www.youtube.com/watch?v=L0kd2bOGCMA)
 
 ## Repository layout
 
