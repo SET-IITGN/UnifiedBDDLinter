@@ -679,7 +679,10 @@ Examples:
         plot_results(csv_path, plot_path)
         return
 
-    run_pipeline(Path(args.repos_root), csv_path, args.sample, args.workers)
+    # Resolve to an absolute path so every discovered .feature path is absolute.
+    # cuke_linter runs from its own config directory and only finds files via
+    # absolute paths; a relative -r would otherwise report 0 for it.
+    run_pipeline(Path(args.repos_root).resolve(), csv_path, args.sample, args.workers)
     plot_results(csv_path, plot_path)
 
 
